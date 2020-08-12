@@ -1,0 +1,11 @@
+var serverPath="http://localhost:8080/ssm_war/";
+var aaa=serverPath+"user/pws/";
+var bbb=serverPath+"user/photo/";
+var  ccc=serverPath+"user/";
+var  ddd=serverPath+"sysnews/";
+var  eee=serverPath+"sysnewstype/";
+var  fff=serverPath+"sysnews/ids";
+var  ggg=serverPath+"sysnews/";
+var  hhh=serverPath+"sysnews/newsimg/";
+var  iii=serverPath+"sysnews/";
+var  jjj=serverPath+"sysnews/";

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootbox.min.js"></script>
+
+    <script src="../bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="../bootstrap/js/bootstrap-datetimepicker.zh-CN.js"></script>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-table.css">
+    <script src="../bootstrap/js/bootstrap-table.js"></script>
+
+
+<!--    <script src="../assets/js/global.js"></script>-->
+<!--    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">-->
+<!--    <script src="../js/jquery-3.1.1.min.js"></script>-->
+<!--    <script src="../bootstrap/js/bootstrap.js"></script>-->
+
+    <script src="../assets/js/global.js"></script>
+    <link rel="stylesheet" href="../summernote/summernote.css">
+    <script src="../summernote/summernote.js"></script>
+    <script src="../summernote/lang/summernote-zh-CN.js"></script>
+<!--    <script src="../assets/js/NewsDetail.jsDetail.js"></script>-->
+    <script src="../assets/js/NewsDetail.js"></script>
+    <script src="../assets/js/url.js"></script>
+</head>
+<body>
+
+<div class="container" >
+    <h3 class="text-center">新闻详情及修改页</h3>
+    <hr />
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <form class="form-horizontal" id="addForm">
+                <input type="hidden" name="id" id="id" />
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="title">标题</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="title" id="title"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label  class="col-md-2 control-label" for="newstype" >新闻类别</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="newstype" id="newstype"/>
+<!--                        <select type="text" class="form-control" id="newstype" name="newstype">-->
+<!--                            <option id="aaaa"></option>-->
+<!--                        </select>-->
+                    </div>
+                </div>
+                <div class="form-group" id="divName">
+                    <label class="col-md-2 control-label" for="editor">活动内容</label>
+                    <div class="col-md-8" >
+                        <textarea id="editor" name="editordata"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label  class="col-md-2 control-label">新闻来源</label>
+                    <div class="col-md-8">
+                        <input type="text" id="comefrom" name="comefrom" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group modal-footer">
+                    <div class="col-md-offset-2 col-md-8">
+                        <button type="button" id="btn_addSure" class="btn btn-info">修改</button>
+                        <button type="button" id="btn_addCancel" class="btn btn-default">取消</button>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
